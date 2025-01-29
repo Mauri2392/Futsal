@@ -152,6 +152,13 @@ section{
 }
 
 /* end */ 
+.home {
+    background-image: url(./img-navbar/cesped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
 .image-container {
     position: relative;
     display: flex;
@@ -995,20 +1002,14 @@ tr:hover {
 .reglamento { 
     max-width: 1200px; 
     margin: 0 auto; 
-    background-image: url(./img-navbar/cesped.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    /* 
-    background-image: url(./img-navbar/cnch7.jpg);
+  /*  background-image: url(./img-navbar/cesped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
 } 
 
-
 .reglamento p {
     font-size: 20px;  
     text-align: center;
-    color: var(--bg);
+    color: var(--white);
 }

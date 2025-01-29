@@ -223,10 +223,6 @@ section{
     height: 60px; 
 } 
 
-.image-container .logo-primera {
-    margin-top: 80px;
-} 
-
 .about .heading {
     margin-bottom: 1rem;
 } 
@@ -282,6 +278,13 @@ main {
     border-radius: 10px; /* Opcional: bordes redondeados */ 
     margin-top: 100px;
 } 
+
+
+@media (max-width: 768px) {
+    .image-container .logo-primera {
+        margin-top: 80px;
+    }
+}
 
 .image-container .text-overlay {
     position: absolute;

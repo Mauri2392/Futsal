@@ -43,7 +43,7 @@ body.active{
     --light-bg: #08042b; */
     --bg: #08042b; 
     --light-bg: #130f40; 
-    --black: #fff; 
+   /* --black: #fff; */
     --black2: #fff; 
 }
 
@@ -266,9 +266,9 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%; /* Ajusta según el tamaño que desees */
-    max-width: 1200px;  /* Tamaño máximo para la imagen */
+    max-width: 1000px;  /* Tamaño máximo para la imagen */
     margin: 0 auto; /* Centra el contenedor en la página */
-   /*  margin-top: 120px; */
+   /*  margin-top: 120px; */ 
 }
 
 .image-container .logo-primera {
@@ -763,17 +763,19 @@ span{
     /* background: url(./img/13-footer/footer.png); */
     /* margin-top: 2rem; */
     text-align: center; 
-  /*  background-color: var(--third); */
-    background-image: url(./html-navbar/img-navbar/cesped.jpg);
+    background-color: var(--third); 
+    background-image: url(./img-bbf/footer-fixture/5.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    height: 85vh; 
 }
 
 .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 2rem; 
+    margin-top: 60px;
 }
 
 .footer .icons-container .icons{
@@ -795,7 +797,7 @@ span{
 
 .footer .icons-container .icons h3{
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--white);
     padding: 1rem 0;
     text-transform: capitalize;
 }
@@ -803,7 +805,7 @@ span{
 .footer .icons-container .icons p{
     line-height: 1.5;
     font-size: 1.9rem;
-    color: var(--bg);
+    color: var(--white);
     text-transform: capitalize;
 }
 
@@ -845,7 +847,7 @@ span{
     margin-top: 3rem;
     padding-top: 3rem;
     font-size: 2rem;
-    color: var(--bg);
+    color: var(--white);
     border-top: var(--celeste);
 } 
 
@@ -855,3 +857,10 @@ span{
 } 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
+@media (max-width: 768px) {
+    .footer{
+        background-image: url(./img-bbf/footer-fixture/1\ \(4\).jpeg); 
+        height: 100%;
+    } 
+
+}

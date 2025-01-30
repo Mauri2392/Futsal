@@ -152,6 +152,12 @@ section{
 }
 
 /* end */ 
+.home {
+    background-image: url(../html-navbar/img-navbar/cesped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+} 
 .image-container {
     position: relative;
     display: flex;

@@ -185,7 +185,11 @@ section{
 .home .slide {
     min-height: 50vh;
 }
-*/
+*/ 
+section{
+    padding: 1rem 7%;
+} 
+ 
 #menu {
         display: inline-block;
 } 
@@ -277,7 +281,7 @@ main {
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
-    margin-top: 120px;
+    margin-top: 100px;
 } 
 
 

@@ -167,6 +167,8 @@ section{
     width: 100%; /* Ajusta según el tamaño que desees */
     max-width: 1000px;  /* Tamaño máximo para la imagen */
     margin: 0 auto; /* Centra el contenedor en la página */ 
+    
+    
 }
 
 .image-container .logo-primera {
@@ -174,7 +176,7 @@ section{
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
-    margin-top: 120px; 
+    margin-top: 100px; 
 }
 
 .image-container .text-overlay {
@@ -335,6 +337,9 @@ section{
 }
 
 @media (max-width: 768px){ 
+section{
+        padding: 1rem 7%;
+} 
 .servicios-section {
         height: 80vh;
     } 
@@ -408,7 +413,7 @@ section{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 10px; 
@@ -771,11 +776,37 @@ tr:hover {
     text-align: center;
 } 
 
-.galleri p {
-    object-fit: cover;
-    color: var(--bg);
+
+.gayeri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+}
+  
+.gayeri p { 
+    font-size: 16px;
+    color: var(--bg); 
+    background-color: var(--prymary); 
+    border-radius: 5px; 
+    padding: 5px 10px;
 } 
 
-.galleri p:hover {
-    color: var(--prymary);
+.gayeri p:hover {
+    color: var(--prymary); 
+    background-color: var(--white);
 }
+
+/*
+.gayeri::after {
+    content: "";
+    width: 350px;
+} */
+
+
+

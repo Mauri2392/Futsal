@@ -857,10 +857,55 @@ span{
 } 
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
+
+.galleri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+}
+  
+.botones img {
+  /*   width: 500px; */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px var(--prymary); 
+    border-radius: 50px;
+} 
+
+.galleri img:hover {
+    box-shadow: 0 0 20px var(--prymary); 
+    scale: 1.04;
+}
+
+/*
+.galleri::after {
+    content: "";
+    width: 350px;
+} */
+
+.botones {
+    text-align: center; 
+} 
+
 @media (max-width: 768px) {
     .footer{
         background-image: url(./img-bbf/footer-fixture/1\ \(4\).jpeg); 
         height: 100%;
     } 
 
-}
+  
+.botones img {
+    width: 300px;
+    margin: 0 auto; 
+    height: 60px;
+} 
+
+} 
+

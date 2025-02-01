@@ -158,6 +158,7 @@ section{
     background-size: cover;
     background-position: center; 
 } 
+
 .image-container {
     position: relative;
     display: flex;
@@ -165,8 +166,7 @@ section{
     align-items: center;
     width: 100%; /* Ajusta según el tamaño que desees */
     max-width: 1000px;  /* Tamaño máximo para la imagen */
-    margin: 0 auto; /* Centra el contenedor en la página */
-    margin-top: 120px; 
+    margin: 0 auto; /* Centra el contenedor en la página */ 
 }
 
 .image-container .logo-primera {
@@ -174,6 +174,7 @@ section{
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
+    margin-top: 120px; 
 }
 
 .image-container .text-overlay {
@@ -377,12 +378,11 @@ section{
 
 .equipos h3 {
     font-size: 40px;
-} 
-
-.image-container {
-    margin-top: 80px;
 }
 
+.image-container .logo-primera {
+    margin-top: 80px;
+}
 }
 
 @media (max-width: 450px){ 
@@ -769,4 +769,13 @@ tr:hover {
     font-size: 20px; 
     color: var(--bg); 
     text-align: center;
+} 
+
+.galleri p {
+    object-fit: cover;
+    color: var(--bg);
+} 
+
+.galleri p:hover {
+    color: var(--prymary);
 }

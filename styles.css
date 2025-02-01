@@ -73,7 +73,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 section{
-   padding: 3rem 7%;
+   padding: 3rem 9%;
 } 
 
 .heading{
@@ -259,7 +259,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-}
+} 
+
 .image-container {
     position: relative;
     display: flex;
@@ -276,7 +277,7 @@ main {
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
-    margin-top: 100px;
+    margin-top: 120px;
 } 
 
 
@@ -858,7 +859,7 @@ span{
 /* ---------------------------------------------- */ 
 /* ---------------------------------------------- */ 
 
-.galleri {
+.gallerri {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -879,7 +880,7 @@ span{
     border-radius: 50px;
 } 
 
-.galleri img:hover {
+.gallerri img:hover {
     box-shadow: 0 0 20px var(--prymary); 
     scale: 1.04;
 }

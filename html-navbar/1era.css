@@ -75,7 +75,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 section{
-   padding: 3rem 7%;
+   padding: 3rem 9%;
 } 
 
 .heading{
@@ -174,7 +174,7 @@ section{
     height: auto;
     display: block;
     border-radius: 10px; /* Opcional: bordes redondeados */ 
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .image-container .text-overlay {
@@ -1021,4 +1021,53 @@ tr:hover {
     font-size: 20px;  
     text-align: center;
     color: var(--white);
+} 
+
+/* ---------------------------------------------- */ 
+/* ---------------------------------------------- */ 
+
+.gallerri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
 }
+  
+.botones img {
+  /*   width: 500px; */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px var(--prymary); 
+    border-radius: 50px;
+} 
+
+.gallerri img:hover {
+    box-shadow: 0 0 20px var(--prymary); 
+    scale: 1.04;
+}
+
+/*
+.galleri::after {
+    content: "";
+    width: 350px;
+} */
+
+.botones {
+    text-align: center; 
+} 
+
+@media (max-width: 768px) {
+
+.botones img {
+    width: 300px;
+    margin: 0 auto; 
+    height: 60px;
+} 
+
+} 

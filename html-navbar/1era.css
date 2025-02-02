@@ -261,7 +261,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    height: 85vh; 
+   /* height: 85vh; */
 }
 
 .footer .icons-container{
@@ -791,7 +791,7 @@ section {
 
 .acordeon-btn {
     background-color: var(--prymary);
-    color: var(--bg);
+    color: var(--white);
     border: none;
     width: 100%;
     padding: 10px; 

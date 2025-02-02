@@ -227,13 +227,18 @@ section{
     /* background: url(./img/13-footer/footer.png); */
     /* margin-top: 2rem; */
     text-align: center; 
-    background-color: var(--third);
+    background-color: var(--third); 
+    background-image: url(../img-bbf/footer-fixture/5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
 }
 
 .footer .icons-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 2rem;
+    gap: 2rem; 
+    margin-top: 60px;
 }
 
 .footer .icons-container .icons{
@@ -791,15 +796,16 @@ tr:hover {
   
 .gayeri p { 
     font-size: 16px;
-    color: var(--bg); 
+    color: var(--white); 
     background-color: var(--prymary); 
     border-radius: 5px; 
     padding: 5px 10px;
 } 
 
-.gayeri p:hover {
+.gayeri p:hover { 
+    scale: 1.1; 
     color: var(--prymary); 
-    background-color: var(--white);
+    background-color: var(--white); 
 }
 
 /*
@@ -808,5 +814,56 @@ tr:hover {
     width: 350px;
 } */
 
+
+/* ---------------------------------------------- */ 
+/* ---------------------------------------------- */ 
+
+.gallerri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px; 
+}
+  
+.botones img {
+  /*   width: 500px; */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px var(--prymary); 
+    border-radius: 50px;
+} 
+
+.gallerri img:hover {
+    box-shadow: 0 0 20px var(--prymary); 
+    scale: 1.04;
+}
+
+/*
+.galleri::after {
+    content: "";
+    width: 350px;
+} */
+
+.botones {
+    text-align: center; 
+} 
+
+@media (max-width: 768px) {
+.galleri {
+    padding: 0px 5px;
+}
+.botones img {
+    width: 300px;
+    margin: 0 auto; 
+    height: 60px;
+} 
+
+} 
 
 

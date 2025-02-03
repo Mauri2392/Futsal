@@ -45,7 +45,7 @@ body.active{
     --light-bg: #08042b; */
     --bg: #08042b; 
     --light-bg: #130f40; 
-    --black: #fff; 
+   /* --black: #fff; */
     --black2: #fff; 
 }
 
@@ -1027,7 +1027,7 @@ tr:hover {
 .reglamento p {
     font-size: 20px;  
     text-align: center;
-    color: var(--white);
+    color: var(--bg);
 } 
 
 /* ---------------------------------------------- */ 
